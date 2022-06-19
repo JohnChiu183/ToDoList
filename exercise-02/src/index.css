@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.toDoBlock{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  margin-right: 5%;
+  flex-direction: row;
+  background-color: rgb(250,250,250);
+  border-radius:5px;
+  box-shadow: 2px 2px 2px darkgray;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-right: 3%;
+}
+
+
+.checkedItem{
+  display: flex;
+  flex: 1;
+  background-color: rgb(230,230,230);
+  color: rgb(180,180,180);
+  text-decoration: line-through;
+  margin-top: 5px;
+  border-radius:5px;
+  justify-content: space-between;
+}
+.nonCheckedItem{
+  display: flex;
+  flex: 2;
+  background-color: rgb(200,200,200);
+  color: rgb(0,0,0);
+  margin-top: 5px;
+  border-radius:5px;
+  justify-content: space-between;
+
+}
+
+
+.form .form-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  margin-top: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 1% 3% 1% 3%;
+  background-color: rgb(250,250,250);
+  border-radius:5px;
+  box-shadow: 2px 2px 2px darkgray;
+  justify-content: space-between;
+  gap:10px;
+}
+
+.addLabel{
+  display: flex;
+  border-radius: 5px;
+
+}
+.addBtn{
+  display: flex;
+  border-radius: 5px;
+  border: 1;
+}
+
+.removeBtn{
+  border-radius: 5px;
+}
+
+button{
+  justify-content: right;
+}
+
+.addIpt{
+  flex:2;
+}
+.addIpt:hover{
+  border: 0px;
+  background-color: lightgray;
+}
+
+
+.checkedItem:hover{
+  border: 1px solid gray;
+}
+
+
+.nonCheckedItem:hover{
+  border: 1px solid gray;
+}
+
+
